@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidattendancesystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="33" />
+
+    <permission
+        android:name="com.example.androidattendancesystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.androidattendancesystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.android.attendance.context.ApplicationContext"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.attendance.activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.MenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.AddFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.AddStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.AddAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.SortAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.ViewChartActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.android.attendance.activity.BarChartActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.androidattendancesystem.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

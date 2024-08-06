@@ -1,0 +1,4 @@
+#Sun Apr 21 14:54:26 IST 2024
+base.0=C\:\\Users\\noorn\\Music\\NewAndroidStuff\\Android-Attendance-App-2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

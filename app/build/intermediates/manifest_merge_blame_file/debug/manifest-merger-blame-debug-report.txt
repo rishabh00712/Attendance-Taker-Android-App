@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.androidattendancesystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.androidattendancesystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:7:5-86:19
+18        android:name="com.android.attendance.context.ApplicationContext"
+18-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:9:10-74
+19        android:allowBackup="true"
+19-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\noorn\.gradle\caches\transforms-3\4ab019a3ddfb7ce3703db84cb1361db5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@drawable/ic_launcher"
+23-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:11:9-45
+24        android:label="@string/app_name"
+24-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:12:9-41
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:13:9-40
+26        <activity
+26-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:14:9-23:20
+27            android:name="com.android.attendance.activity.MainActivity"
+27-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:15:13-72
+28            android:exported="true"
+28-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:16:13-36
+29            android:label="@string/app_name" >
+29-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:17:13-45
+30            <intent-filter>
+30-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:18:13-22:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:19:17-69
+31-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:19:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:21:17-77
+33-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:21:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:24:10-27:20
+37            android:name="com.android.attendance.activity.LoginActivity"
+37-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:25:13-73
+38            android:label="@string/app_name" >
+38-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:26:13-45
+39        </activity>
+40        <activity
+40-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:28:10-31:20
+41            android:name="com.android.attendance.activity.MenuActivity"
+41-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:29:13-72
+42            android:label="@string/app_name" >
+42-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:30:13-45
+43        </activity>
+44        <activity
+44-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:32:10-35:20
+45            android:name="com.android.attendance.activity.AddFacultyActivity"
+45-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:33:13-78
+46            android:label="@string/app_name" >
+46-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:34:13-45
+47        </activity>
+48        <activity
+48-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:36:9-39:20
+49            android:name="com.android.attendance.activity.AddStudentActivity"
+49-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:37:13-78
+50            android:label="@string/app_name" >
+50-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:38:13-45
+51        </activity>
+52        <activity
+52-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:40:9-43:20
+53            android:name="com.android.attendance.activity.ViewFacultyActivity"
+53-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:41:13-79
+54            android:label="@string/app_name" >
+54-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:42:13-45
+55        </activity>
+56        <activity
+56-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:44:9-47:20
+57            android:name="com.android.attendance.activity.ViewStudentActivity"
+57-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:45:13-79
+58            android:label="@string/app_name" >
+58-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:46:13-45
+59        </activity>
+60        <activity
+60-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:48:9-51:20
+61            android:name="com.android.attendance.activity.TestActivity"
+61-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:49:13-72
+62            android:label="@string/app_name" >
+62-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:50:13-45
+63        </activity>
+64        <activity
+64-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:52:10-55:20
+65            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+65-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:53:13-83
+66            android:label="@string/app_name" >
+66-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:54:13-45
+67        </activity>
+68        <activity
+68-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:56:11-59:20
+69            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+69-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:57:13-88
+70            android:label="@string/app_name" >
+70-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:58:13-45
+71        </activity>
+72        <activity
+72-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:60:10-63:20
+73            android:name="com.android.attendance.activity.AddAttendanceActivity"
+73-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:61:13-81
+74            android:label="@string/app_name" >
+74-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:62:13-45
+75        </activity>
+76        <activity
+76-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:64:10-67:20
+77            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+77-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:65:13-91
+78            android:label="@string/app_name" >
+78-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:66:13-45
+79        </activity>
+80        <activity
+80-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:68:10-71:20
+81            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+81-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:69:13-92
+82            android:label="@string/app_name" >
+82-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:70:13-45
+83        </activity>
+84        <activity
+84-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:72:9-75:20
+85            android:name="com.android.attendance.activity.SortAttendanceActivity"
+85-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:73:13-82
+86            android:label="@string/app_name" >
+86-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:74:13-45
+87        </activity>
+88        <activity
+88-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:76:9-79:20
+89            android:name="com.android.attendance.activity.ViewChartActivity"
+89-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:77:9-73
+90            android:label="@string/app_name" >
+90-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:78:9-41
+91        </activity>
+92        <activity
+92-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:81:9-84:20
+93            android:name="com.android.attendance.activity.BarChartActivity"
+93-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:82:13-76
+94            android:label="@string/app_name" >
+94-->C:\Users\noorn\Music\NewAndroidStuff\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:83:13-45
+95        </activity>
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.example.androidattendancesystem.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\noorn\.gradle\caches\transforms-3\0c05c4483bc355aad7724c4039b9fe4a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\noorn\.gradle\caches\transforms-3\6b0b46109bba3b29f30d36cba913fc16\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\noorn\.gradle\caches\transforms-3\6b0b46109bba3b29f30d36cba913fc16\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\noorn\.gradle\caches\transforms-3\6b0b46109bba3b29f30d36cba913fc16\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>
